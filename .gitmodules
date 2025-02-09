@@ -1,0 +1,3 @@
+[submodule "spaal2-core"]
+	path = spaal2-core
+	url = https://github.com/Keio-CSG/spaal2-core.git

@@ -1,0 +1,15 @@
+[project]
+name = "spaal2-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.9.4",
+    "numpy>=1.26.4",
+    "scipy>=1.13.1",
+    "spaal2-core",
+]
+
+[tool.uv.sources]
+spaal2-core = { path = "spaal2-core" }
